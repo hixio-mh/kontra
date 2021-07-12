@@ -41,7 +41,7 @@
   "devDependencies": {
     "@rollup/stream": "^0.1.0",
     "chai": "^4.2.0",
-    "coveralls": "^3.0.3",
+    "coveralls": "^3.1.0",
     "glob": "^7.1.6",
     "gulp": "^4.0.0",
     "gulp-livingcss": "^4.1.2",
