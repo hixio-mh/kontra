@@ -19,7 +19,9 @@
     "test:ts": "tsc test/typings/*.ts",
     "build": "gulp build",
     "build:docs": "gulp build:docs",
-    "dist": "gulp dist"
+    "dist": "gulp dist",
+    "prepublish": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -66,5 +68,9 @@
     "sinon": "^7.2.7",
     "typescript": "^3.7.2",
     "vinyl-source-stream": "^2.0.0"
+  },
+  "snyk": true,
+  "dependencies": {
+    "@snyk/protect": "latest"
   }
 }
